@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
+
+/*Body index.html*/
+#Home
+{
+    margin: 0px;
+    background-image: url('img/netflix-background-9.jpg');
+    font-family: 'open sans';sans serif,
+}
+
+body
+{
+    margin: 0px;
+    font-family: 'open sans';sans serif,
+}
+/* Body profile*/
+#profile
+{
+    background-color:#141414 ;
+}
+*{
+    box-sizing: border-box; 
+}
+/* Body profile*/
+nav
+{
+    background-color:transparent;
+    height: 250px;
+}
+nav img{
+    width: 80px;
+}
+
+/* Formulaire */
+form
+{
+    background-color:rgb(0,0,0.75);/*Rbg opacité .75 > - 75*/
+    /* lement prenne plus de place deborde = suppr la hauteur height: 250Px;*/
+    width: 400Px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: #ffffff;
+    
+}
+.formulaire
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+
+ 
+}
+
+input
+{
+    padding: 16px 20px;/* padding : quatre cotés des elements, 20Px top et bottom */
+    margin: 5px 0;/*pading top et sur côté*/
+    border: none;
+    color:#ffffff ;
+    border-radius: 4px; 
+    background-color: #333;
+    font-size: 16px;
+    opacity: .8;
+    outline: none;/* rétirer selecteur bleu*/
+    
+
+}
+input[ type=submit]/* rajouter un id à input ou class*/
+{
+    background-color:rgb(211, 8, 18);
+    font-weight: 700;/* le met en bold*/
+    text-transform: uppercase;
+    cursor: pointer;
+}
+input[ type=submit]:hover
+{
+    background-color: rgb(173, 8, 16);
+}
+
+input[type=email]:focus,input[type=password]:focus{
+    opacity: 1;
+    background-color: ;
+}
+
+.color-gris  /* ou imposer label color label ou marf
+gin left label pour ecarter de la chexbox */
+{
+    color: #737373;
+}
+ a{
+     color: #ffffff;
+ }
+ /* Formulaire */
